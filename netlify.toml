@@ -1,0 +1,11 @@
+[build]
+  command = "npm run build"
+  publish = "web/out"
+
+# Catch-all redirect for single page apps (SPA) using client-side routing,
+# though Next.js with output: 'export' usually generates HTML for every route.
+# Adding this as a fallback if client-side routing is heavy.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

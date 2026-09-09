@@ -8,6 +8,7 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
   // Deploy as a standard Next.js app on Vercel. All pages are statically
   // pre-rendered at build time; no code here requires a server at runtime.
+  output: "export",
   devIndicators: false,
 };
 
